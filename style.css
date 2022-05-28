@@ -1,9 +1,10 @@
-*{
+/* this makes entire margin and padding of the website to zero */
+*{ 
     margin: 0;
     padding: 0;
 }
 
-
+/* this is id for the logo  */
 #logo{
     width: 60px;
 }
@@ -19,6 +20,7 @@
     color: #F37335;
     transition: 1s;
 }
+/* class navbar contains every css that is used in navbar  */
 .navbar{
     background-color: #E7E7E7;
     font-family: Arial, Helvetica,sans-serif;
@@ -29,21 +31,23 @@
 
 .navbar a{
 margin-right: 28px;
-/* color:#575757; */
  color:#575757; 
-letter-spacing: 3px;
+letter-spacing: 3px; 
 text-decoration: none;
 }
+/* while hovering into navbar following css is applied  */
 .navbar a:hover{
     text-decoration: underline;
     color: orange;
     transition: 0.3s ease;
 } 
+/* this is the gradient background known as hero section  */
 .hero-bg{
     background: #FDC830;
         background: -webkit-linear-gradient(to right, #F37335, #FDC830);
         background: linear-gradient(to right, #F37335, #FDC830);
 }
+/* this is vdo class */
 .vdo{
     display: flex;
     justify-content: center;
@@ -60,12 +64,12 @@ justify-content: center;
     background-color: #E7E7E7;
     font-family: 'Times New Roman', Times, serif;
 }
-#but:hover{
+#but:hover{ /* changes the color of button while hoving */
     background-color: #F9A732;
     transition:0.7s;
 }
 
-
+/* this is css for accordion class  */
 .accordion {
             background-color: #eee;
             color: #444;
@@ -114,6 +118,7 @@ justify-content: center;
     transition: 0.4s;
 
 } 
+/* n-th child is used to specifically target a section having same class name  */
 #features .box:nth-child(1):hover{
 border: 1px solid orange;
 background-color: orange;
@@ -132,7 +137,7 @@ box-shadow:green ;
 border: 1px solid red;
 background-color: red;
 }
-#features .box:nth-child(5):hover{
+#features .box:nth-child(5):hover{ /*changes color while hovering of the 5th div in box class */
 border: 1px solid purple;
 background-color: purple;
 }
@@ -140,6 +145,7 @@ background-color: purple;
 border: 1px solid blue;
 background-color: blue;
 }
+/* this is css for newsletter id  */
 #newsletter{
     display: flex;
     justify-content: space-around;
@@ -175,7 +181,7 @@ background-color: blue;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-#newsletter button{
+#newsletter button{ /*newsletter button aquires this css */
     background-color:#088178;
     color:black;
     padding: 7px;
@@ -290,6 +296,7 @@ background: #FDC830;
 .rating{
     display: flex;
     flex-direction: row;
+    color:#E7E7E7;
 }
 .mainbox{
     display: flex;

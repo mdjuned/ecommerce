@@ -5,27 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Home</title>
     <style>
+        /* this is the intenal css for marquee tag */
         marquee {
             font-size: 30px;
             background-color: orange;
         }
     </style>
+    <!-- this page is linked with external Css and font awoesome library  -->
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/74a76bdade.js" crossorigin="anonymous"></script>
 </head>
 
+<!-- body section starts here  -->
 
 <body style="background-color:#FAFAFA ;">
+    <!-- this is the hero background gradient for home page -->
     <div class="hero-bg">
+        <!-- image of E-container logo and E-container text -->
         <img src="./images/ok-removebg-preview (4).png" id="logo" alt="logo" style="margin: 31px;">
         <img src="./images/e-Delivery__1_-removebg-preview.png" width="250" style="margin:-65px;" alt="">
+        <!-- this is buy now button on the topright side of the home page -->
         <div class="bt">
             <a href="./products.html" style="text-decoration: none;">Buy Now</a>
         </div>
         <p id="time" style="color:#551A8B ;"></p>
         <nav>
+            <!-- this div contains every information that should be in the navbar  -->
             <div class="navbar"><b>
                     <a href="./index.html" class="active">HOME</a>
                     <a href="./products.html">PRODUCTS</a>
@@ -45,7 +52,7 @@
             </b>
         </marquee><br>
 
-
+        <!-- this is the div for video section that is in home page  -->
         <div class="vdo">
             <video src="./videos/SAS.mp4 " width="1150" height="400" autoplay loop> </video>
         </div><br><br><br>
@@ -63,6 +70,7 @@
                 site and select what ever brand phones they are trying to buy. The specs and prices are also enlisted.
                 Customers can easily buy the product with a single tap.</p>
         </div>
+        <!-- this is the accordion for  -->
 
         <button class="accordion">-> Best Offers</button>
         <div class="panel">
@@ -92,6 +100,7 @@
 
         </div>
     </div>
+    <!-- this section shows the features and is kept on a div so that it could be aligned perfectly in a row  -->
     <section id="features" class="sec">
         <div class="box">
             <img src="./images/Free Shipping.png" alt="feature" width="150" height="160">
@@ -118,6 +127,7 @@
 
         </div>
     </section>
+    <!-- this is the section for newsletter and its id is denoted as newsletter  -->
     <section id="newsletter" class="sec">
         <div>
             <h4 style="color:#FAFAFA;">SignUp for Newsletter</h4>
@@ -125,6 +135,7 @@
                     style="color:black;">Special
                     Offers</a></p>
         </div>
+        <!-- this div having class form is for the email address and button section inside  of the newsletter  -->
         <div class="form">
             <input type="text" placeholder="Your email address">
             <button class="normal">SignUp</button>
@@ -176,6 +187,7 @@
             <p>&copy;E-Container 2022,Kathmandu,Nepal</p>
         </div>
     </footer>
+    <!-- this script tag is the use of internal javascript  -->
     <script>
         var acc = document.getElementsByClassName("accordion");
         var i;
@@ -192,6 +204,7 @@
             });
         }
     </script>
+    <!-- this is linking with external javascript  -->
     <script src="./script.js"></script>
 </body>
 
